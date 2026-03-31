@@ -168,7 +168,7 @@ function Hero() {
           Sign Documents
           <br />
           <span className="bg-gradient-to-r from-violet-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent">
-            Digitally &amp; Securely
+            Digitally & Securely
           </span>
         </motion.h1>
 

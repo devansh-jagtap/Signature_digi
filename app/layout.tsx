@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
-const inter = localFont({
+const geist = localFont({
   src: [
     { path: "./fonts/GeistVF.woff", weight: "100 900" },
   ],
-  variable: "--font-inter",
+  variable: "--font-geist",
   display: "swap",
 });
 
@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${inter.variable} font-sans bg-[#0a0a0f] text-white antialiased`}>
+      <body className={`${geist.variable} font-sans bg-[#0a0a0f] text-white antialiased`}>
         {children}
       </body>
     </html>
